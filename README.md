@@ -128,3 +128,50 @@ mini-ai-knowledge-assistant/
 │   └── generator.py
 │
 └── data/
+
+## 🔮 Future Advancements
+
+This project is currently implemented as a functional V1 prototype. The next phase will focus on improving the user experience, retrieval quality, scalability, and overall system architecture.
+
+### 1. Improved User Interface
+
+The current Streamlit interface provides the core functionality, but the UI can be further developed into a more polished knowledge-assistant experience.
+
+Planned improvements include:
+
+- Modern chat-based interface
+- Improved document upload experience
+- Better source and citation visualization
+- Expandable retrieved-context sections
+- Document information and processing status
+- Conversation history
+- Loading and processing indicators
+- Better error handling and user feedback
+- Responsive and cleaner application layout
+
+### 2. Custom Web Frontend
+
+As the project evolves, the Streamlit frontend may be replaced with a dedicated web frontend using:
+
+- HTML
+- CSS
+- JavaScript
+
+This would provide greater control over the application's layout, interactions, animations, and overall user experience.
+
+A possible architecture would be:
+
+```text
+Frontend
+HTML + CSS + JavaScript
+        │
+        │ HTTP / REST API
+        ▼
+Backend
+Rust
+        │
+        ├── PDF Processing
+        ├── Text Chunking
+        ├── Embedding Pipeline
+        ├── Vector Retrieval
+        └── LLM Generation
