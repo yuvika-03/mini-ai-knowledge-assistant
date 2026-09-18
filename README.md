@@ -128,6 +128,7 @@ mini-ai-knowledge-assistant/
 │   └── generator.py
 │
 └── data/
+```
 
 ## 🔮 Future Advancements
 
